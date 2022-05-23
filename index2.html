@@ -424,22 +424,7 @@
                     }
                   }
 
-                  function createBudgetWrapperDivEl() {
-                    const divEl = document.createElement("div");
-                    divEl.setAttribute("class", "made-with-softr");
-
-                    divEl.style.setProperty('display', 'block', 'important');
-                    divEl.style.setProperty('opacity', '1', 'important');
-                    divEl.style.setProperty('visibility', 'visible', 'important');
-
-                    divEl.innerHTML = `
-                   <a href="https://www.softr.io/?via=madewithbadge" target="_blank" title="Client Portal | Internal Tools | Web App Builder | Free Website Builder">
-                      <img src="https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/softr_logo_icon_only.svg" alt="Client Portal | Internal Tools | Web App Builder | Free Website Builder">
-                      <span class="made-with">Made with</span>
-                      <span class="softr-word">Softr</span>
-                    </a>`;
-                    document.body.appendChild(divEl);
-                  }
+                  
 
                   function isInCurrentSection(elTop, elBottom) {
                     const innerHeight = window.innerHeight - 30;
